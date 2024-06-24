@@ -82,17 +82,17 @@ Spaceboy (space facts consultant)
 
 - [Linktree](https://linktr.ee/moriyashiine)
 
-### Merp:
-
-Sound artist (crate, doors)
-
-- [Linktree](https://linktr.ee/i_am_merp)
-
 ### Sillvia:
 
 Voice actress (trailer ad section), additional shots
 
 - [Twitch](https://www.twitch.tv/sillviatv)
+
+### BobaBear:
+
+Building help
+
+- [YouTube](https://youtube.com/@bobabeariswizard)
 
 ### Amo
 
@@ -114,6 +114,9 @@ Quasar help, Foundry contact
 
 ### Additional credits:
 
+- [Crate and door sounds by Merp](https://linktr.ee/i_am_merp)
+- [Luxury Journey painting by KodaConstellation](https://kodaconstellation.carrd.co/)
+- [Vent textures (used as pots, kitchen counters) by LopyLuna](https://twitter.com/LopyLuna)
 - [Solar system textures](https://www.solarsystemscope.com/textures/)
 - [Planet texture generator Blender plugin](blenderartists.org/t/procedural-planet-generator/1368598)
 - Intro images:
@@ -121,4 +124,4 @@ Quasar help, Foundry contact
 	- https://openverse.org/image/bf4d24ae-f948-498c-ae3d-6acab114a7d2?q=pulsar
 	- https://commons.wikimedia.org/w/index.php?curid=144904538 
 	- https://www.eso.org/public/images/eso1919a
-	- https://commons.wikimedia.org/w/index.php?curid=131655756 
+	- https://commons.wikimedia.org/w/index.php?curid=131655756
