@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Moving back to Fabric"
-date:   2024-06-20 00:00:00 +0100
+date:   2024-09-20 00:00:00 +0100
 categories: credits
 
 ---
