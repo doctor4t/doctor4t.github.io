@@ -1,0 +1,40 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <a class="sidebar-nav-item" href="https://www.youtube.com/doctor4t">YouTube</a>
+    <a class="sidebar-nav-item" href="https://twitter.com/doctor4t_">Twitter</a>
+    <a class="sidebar-nav-item" href="https://ko-fi.com/doctor4t">Ko-Fi</a>
+    <a class="sidebar-nav-item" href="https://www.tumblr.com/doctor4t">Tumblr</a>
+    <a class="sidebar-nav-item" href="https://www.twitch.tv/doctor4t">Twitch</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }} doctor4t All rights reserved
+    </p>
+  </div>
+</div>
